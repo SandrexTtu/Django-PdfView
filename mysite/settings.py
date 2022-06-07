@@ -9,7 +9,9 @@ https://docs.djangoproject.com/en/4.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
-
+import django
+import django_heroku
+import dj_database_url
 from pathlib import Path
 import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -25,7 +27,7 @@ SECRET_KEY = 'django-insecure-fox@*r_%nn48t&lp@rwc(tfdfkzv4y6fx_4^ov@)o8ydip6k=+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','pdf-noc.herokuapp.com']
+ALLOWED_HOSTS = ['https://noc-pdf.herokuapp.com']
 
 
 # Application definition
@@ -132,3 +134,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/Files/'
 LOGIN_URL = 'login'
+
+
+STATICFILES_DIRS =(os.path.join(BASE_DIR, 'static'))
+django_heroku.settings(locals())
