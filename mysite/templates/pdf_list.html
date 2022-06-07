@@ -1,0 +1,34 @@
+{% extends 'basee.html' %}
+
+{% block content %}
+
+  {% block content_header %}
+  <div class="w3-container">
+    <div class="w3-show-inline-block">
+      <div class="w3-bar">
+    <h2>PDF list</h2>
+      </div>
+    </div>
+  </div>
+  {% endblock %}
+
+  <table class="table mb-0">
+    <thead>
+      <tr>
+        <th>დასახელება</th>
+        <th>წაკითხვა/გადმოწერა</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for pdf in pdfs %}
+        <tr>
+          <td>{{ pdf.დასახელება }}</td>
+          <td>          <a href="{{ pdf.pdf.url }}" class="btn btn-primary btn-sm" target="_blank">
+            PDF წაკითხვა/გადმოწერა
+          </a>
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'pdfs.html' %}
+
+{% block content_header %}
+  <p>  
+    <div class="w3-container">
+      <div class="w3-show-inline-block">
+        <div style="display:inline" class="w3-bar">
+      <a  href="{% url 'class_upload_pdf' %}"  class="btn btn-primary">ფაილის ატვირთვა</a>
+        </div>
+      </div>
+    </div>
+  </p>
+{% endblock %}

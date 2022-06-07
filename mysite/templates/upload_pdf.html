@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+  <h2 style="font-family: cursive;" >PDF ატვირთვა</h2>
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <button type="submit" class="btn btn-primary">ატვირთვა</button>
+    <a href="{% url 'class_pdf_list' %}" class="btn btn-primary">უკან დაბრუნება</a>
+
+  </form>
+{% endblock %}
