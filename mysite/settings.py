@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-fox@*r_%nn48t&lp@rwc(tfdfkzv4y6fx_4^ov@)o8ydip6k=+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','noc-pdf.herokuapp']
+ALLOWED_HOSTS = ['127.0.0.1','noc-pdf.herokuapp.com']
 
 
 # Application definition
