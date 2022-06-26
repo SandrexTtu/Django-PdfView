@@ -309,3 +309,6 @@ TypeError: argument of type 'NoneType' is not iterable
 06/26/2022, 20:16:21,  C:\Projects\mysite\mysite\urls.py changed, reloading.
 06/26/2022, 20:16:21,  Watching for file changes with StatReloader
 06/26/2022, 20:16:29,  user admin logged in through page https://191c-188-129-145-254.eu.ngrok.io/login?next=/list
+06/26/2022, 20:31:41,  C:\Projects\mysite\core\models.py changed, reloading.
+06/26/2022, 20:31:42,  Watching for file changes with StatReloader
+06/26/2022, 20:31:48,  C:\Projects\mysite\core\models.py changed, reloading.
