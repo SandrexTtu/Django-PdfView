@@ -4,15 +4,12 @@ from django.views.generic import ListView, CreateView
 from django.core.files.storage import FileSystemStorage
 from django.urls import reverse_lazy
 from django.contrib.auth import authenticate, login, logout
-
-from core.decorators import unauthenticated_user
 from .forms import PdfForm , CreateUserForm
 from .models import Pdf
 from django.http import HttpResponse , HttpResponseNotFound
 from django.contrib import messages
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.decorators import login_required
-from .decorators import unauthenticated_user , allowed_users
 
 @login_required
 def pdf_view(request):
@@ -146,7 +143,7 @@ def pdf_view11(request):
         return HttpResponseNotFound('the requested pdf was not found in our server')                                                             
 
 @login_required
-@allowed_users(allowed_roles=['moderator' , 'admin'])
+
 def upload(request):
     context = {}
     if request.method == 'POST':
@@ -162,7 +159,6 @@ def pdf_list(request):
 
 
 @login_required
-@allowed_users(allowed_roles=['moderator' , 'admin'])
 def upload_pdf(request):
     if request.method == 'POST':
         form = PdfForm(request.POST, request.FILES)
@@ -176,7 +172,6 @@ def upload_pdf(request):
     })
 
 @login_required
-@allowed_users(allowed_roles=['moderator' , 'admin'])
 def delete_pdf(request, pk):
     if request.method == 'POST':
         pdf = Pdf.objects.get(pk=pk)
@@ -209,7 +204,6 @@ def registerPage(request):
 
 				return redirect('login')
 			
-
 		context = {'form':form}
 		return render(request, 'register.html', context)
     
@@ -235,7 +229,7 @@ def loginPage(request):
 
 def logoutUser(request):
 	logout(request)
-	return redirect('login')
+	return redirect('/')
 
 
 def handle_not_found(request,exception):

@@ -1,0 +1,311 @@
+06/24/2022, 20:07:04,  C:\Projects\mysite\mysite\urls.py changed, reloading.
+06/24/2022, 20:07:05,  Watching for file changes with StatReloader
+06/24/2022, 20:12:40,  user sandrexttu1 logged in through page https://2fab-45-143-108-82.eu.ngrok.io/login?next=/list
+06/24/2022, 20:13:06,  C:\Projects\mysite\mysite\urls.py changed, reloading.
+06/24/2022, 20:13:06,  Watching for file changes with StatReloader
+06/24/2022, 20:13:17,  user sandrexttu1 logged out through page None
+06/24/2022, 20:13:19,  user sandrexttu1 logged in through page https://2fab-45-143-108-82.eu.ngrok.io/login
+06/24/2022, 20:13:19,  Internal Server Error: /login
+Traceback (most recent call last):
+  File "C:\Django\lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Django\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Django\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'None' not found. 'None' is not a valid view function or pattern name.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Django\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Django\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Projects\mysite\core\views.py", line 222, in loginPage
+    return redirect(request.POST.get('next'))
+  File "C:\Django\lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Django\lib\site-packages\django\shortcuts.py", line 151, in resolve_url
+    if "/" not in to and "." not in to:
+TypeError: argument of type 'NoneType' is not iterable
+06/24/2022, 20:13:24,  user sandrexttu1 logged in through page https://2fab-45-143-108-82.eu.ngrok.io/login?next=/list
+06/24/2022, 20:13:34,  user sandrexttu1 logged out through page None
+06/24/2022, 20:13:35,  Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "C:\Django\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Django\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Projects\mysite\core\views.py", line 231, in logoutUser
+    logout(request)
+  File "C:\Django\lib\site-packages\django\contrib\auth\__init__.py", line 157, in logout
+    user_logged_out.send(sender=user.__class__, request=request, user=user)
+  File "C:\Django\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "C:\Django\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "C:\Projects\mysite\core\signals.py", line 18, in log_user_logout
+    logging.info('user {} logged out through page {}'.format(user.username, request.META.get('HTTP_REFERER')))
+AttributeError: 'NoneType' object has no attribute 'username'
+06/24/2022, 20:14:19,  user sandrexttu1 logged in through page https://2fab-45-143-108-82.eu.ngrok.io/login?next=/Files/Pdf/%25E1%2583%25AD%25E1%2583%2590%25E1%2583%2591%25E1%2583%25A3%25E1%2583%25A0%25E1%2583%25A6%25E1%2583%2598%25E1%2583%259A%25E1%2583%25981.pdf/
+06/24/2022, 20:18:52,  C:\Projects\mysite\mysite\urls.py changed, reloading.
+06/24/2022, 20:18:53,  Watching for file changes with StatReloader
+06/25/2022, 13:05:28,  Watching for file changes with StatReloader
+06/25/2022, 13:05:30,  Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+06/25/2022, 13:05:30,  Bad Request: /
+06/25/2022, 13:05:30,  Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+06/25/2022, 13:05:30,  Bad Request: /favicon.ico
+06/25/2022, 13:05:32,  Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+06/25/2022, 13:05:32,  Bad Request: /
+06/25/2022, 13:05:33,  Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+06/25/2022, 13:05:33,  Bad Request: /
+06/25/2022, 13:05:35,  Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+06/25/2022, 13:05:35,  Bad Request: /favicon.ico
+06/25/2022, 13:06:49,  C:\Projects\mysite\mysite\settings.py changed, reloading.
+06/25/2022, 13:06:50,  Watching for file changes with StatReloader
+06/25/2022, 13:07:20,  user sandrexttu1 logged in through page https://4f50-45-143-108-82.eu.ngrok.io/login?next=/list
+06/25/2022, 13:08:00,  Watching for file changes with StatReloader
+06/25/2022, 13:08:23,  user sandrexttu1 logged out through page https://4f50-45-143-108-82.eu.ngrok.io/list
+06/25/2022, 13:08:40,  user sandrexttu1 logged in through page https://4f50-45-143-108-82.eu.ngrok.io/login
+06/25/2022, 13:08:40,  Internal Server Error: /login
+Traceback (most recent call last):
+  File "C:\Django\lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Django\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Django\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'None' not found. 'None' is not a valid view function or pattern name.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Django\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Django\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Projects\mysite\core\views.py", line 222, in loginPage
+    return redirect(request.POST.get('next'))
+  File "C:\Django\lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Django\lib\site-packages\django\shortcuts.py", line 151, in resolve_url
+    if "/" not in to and "." not in to:
+TypeError: argument of type 'NoneType' is not iterable
+06/25/2022, 13:09:50,  C:\Projects\mysite\core\views.py changed, reloading.
+06/25/2022, 13:09:50,  Watching for file changes with StatReloader
+06/25/2022, 13:09:51,  user sandrexttu1 logged in through page https://4f50-45-143-108-82.eu.ngrok.io/login?next=/list
+06/25/2022, 13:09:52,  user sandrexttu1 logged out through page https://4f50-45-143-108-82.eu.ngrok.io/list
+06/25/2022, 13:10:18,  C:\Projects\mysite\mysite\urls.py changed, reloading.
+06/25/2022, 13:10:19,  Watching for file changes with StatReloader
+06/25/2022, 13:10:39,  user sandrexttu1 logged in through page https://4f50-45-143-108-82.eu.ngrok.io/login?next=/list
+06/25/2022, 13:10:49,  C:\Projects\mysite\mysite\urls.py changed, reloading.
+06/25/2022, 13:10:50,  Watching for file changes with StatReloader
+06/25/2022, 13:11:05,  C:\Projects\mysite\mysite\urls.py changed, reloading.
+06/25/2022, 13:11:06,  Watching for file changes with StatReloader
+06/25/2022, 13:11:10,  C:\Projects\mysite\mysite\urls.py changed, reloading.
+06/25/2022, 13:11:11,  Watching for file changes with StatReloader
+06/25/2022, 13:11:15,  user sandrexttu1 logged out through page https://4f50-45-143-108-82.eu.ngrok.io/list
+06/25/2022, 13:11:23,  C:\Projects\mysite\mysite\urls.py changed, reloading.
+06/25/2022, 13:11:24,  Watching for file changes with StatReloader
+06/25/2022, 13:11:41,  C:\Projects\mysite\core\views.py changed, reloading.
+06/25/2022, 13:11:41,  Watching for file changes with StatReloader
+06/25/2022, 13:11:47,  user sandrexttu1 logged in through page https://4f50-45-143-108-82.eu.ngrok.io/login?next=/list
+06/25/2022, 13:11:54,  C:\Projects\mysite\mysite\urls.py changed, reloading.
+06/25/2022, 13:11:55,  Watching for file changes with StatReloader
+06/25/2022, 13:11:57,  user sandrexttu1 logged out through page https://4f50-45-143-108-82.eu.ngrok.io/list
+06/25/2022, 13:11:59,  user sandrexttu1 logged in through page https://4f50-45-143-108-82.eu.ngrok.io/login
+06/25/2022, 13:11:59,  Internal Server Error: /login
+Traceback (most recent call last):
+  File "C:\Django\lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Django\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Django\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'None' not found. 'None' is not a valid view function or pattern name.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Django\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Django\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Projects\mysite\core\views.py", line 222, in loginPage
+    return redirect(request.POST.get('next'))
+  File "C:\Django\lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Django\lib\site-packages\django\shortcuts.py", line 151, in resolve_url
+    if "/" not in to and "." not in to:
+TypeError: argument of type 'NoneType' is not iterable
+06/25/2022, 13:12:07,  user sandrexttu1 logged in through page https://4f50-45-143-108-82.eu.ngrok.io/login?next=/list
+06/25/2022, 13:12:09,  user sandrexttu1 logged out through page https://4f50-45-143-108-82.eu.ngrok.io/list
+06/25/2022, 13:12:33,  C:\Projects\mysite\core\views.py changed, reloading.
+06/25/2022, 13:12:33,  Watching for file changes with StatReloader
+06/25/2022, 13:12:38,  user sandrexttu1 logged in through page https://4f50-45-143-108-82.eu.ngrok.io/login?next=/list
+06/25/2022, 13:12:39,  user sandrexttu1 logged out through page https://4f50-45-143-108-82.eu.ngrok.io/list
+06/25/2022, 13:13:00,  C:\Projects\mysite\core\views.py changed, reloading.
+06/25/2022, 13:13:01,  Watching for file changes with StatReloader
+06/25/2022, 13:13:05,  user sandrexttu1 logged in through page https://4f50-45-143-108-82.eu.ngrok.io/login?next=/list
+06/25/2022, 13:13:07,  user sandrexttu1 logged out through page https://4f50-45-143-108-82.eu.ngrok.io/list
+06/25/2022, 13:13:07,  Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "C:\Django\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Django\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Projects\mysite\core\views.py", line 232, in logoutUser
+    return redirect('')
+  File "C:\Django\lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Django\lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Django\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Django\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+06/25/2022, 13:13:13,  C:\Projects\mysite\core\views.py changed, reloading.
+06/25/2022, 13:13:13,  Watching for file changes with StatReloader
+06/25/2022, 13:13:14,  Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "C:\Django\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Django\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Projects\mysite\core\views.py", line 231, in logoutUser
+    logout(request)
+  File "C:\Django\lib\site-packages\django\contrib\auth\__init__.py", line 157, in logout
+    user_logged_out.send(sender=user.__class__, request=request, user=user)
+  File "C:\Django\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "C:\Django\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "C:\Projects\mysite\core\signals.py", line 18, in log_user_logout
+    logging.info('user {} logged out through page {}'.format(user.username, request.META.get('HTTP_REFERER')))
+AttributeError: 'NoneType' object has no attribute 'username'
+06/25/2022, 13:13:19,  user sandrexttu1 logged in through page https://4f50-45-143-108-82.eu.ngrok.io/login?next=/list
+06/25/2022, 13:13:20,  user sandrexttu1 logged out through page https://4f50-45-143-108-82.eu.ngrok.io/list
+06/25/2022, 13:13:25,  user sandrexttu1 logged in through page https://4f50-45-143-108-82.eu.ngrok.io/login?next=/list
+06/25/2022, 13:13:27,  user sandrexttu1 logged out through page https://4f50-45-143-108-82.eu.ngrok.io/list
+06/25/2022, 13:13:33,  user sandrexttu1 logged in through page https://4f50-45-143-108-82.eu.ngrok.io/login?next=/list
+06/25/2022, 13:13:42,  C:\Projects\mysite\core\views.py changed, reloading.
+06/25/2022, 13:13:43,  Watching for file changes with StatReloader
+06/25/2022, 19:27:40,  user sandrexttu1 logged in through page https://4f50-45-143-108-82.eu.ngrok.io/login?next=/list
+06/25/2022, 19:45:10,  Watching for file changes with StatReloader
+06/25/2022, 19:45:16,  user sandrexttu1 logged in through page https://4f50-45-143-108-82.eu.ngrok.io/admin/login/?next=/admin/
+06/25/2022, 19:47:23,  user admin logged in through page https://4f50-45-143-108-82.eu.ngrok.io/admin/login/?next=/admin/auth/user/
+06/25/2022, 19:54:35,  user staff logged in through page https://4f50-45-143-108-82.eu.ngrok.io/admin/login/?next=/admin/
+06/25/2022, 19:55:31,  user staff logged out through page https://4f50-45-143-108-82.eu.ngrok.io/admin/
+06/25/2022, 19:55:37,  user admin logged in through page https://4f50-45-143-108-82.eu.ngrok.io/admin/login/?next=/admin/
+06/25/2022, 20:31:24,  user admin logged in through page https://4f50-45-143-108-82.eu.ngrok.io/admin/login/?next=/admin/auth/user/
+06/25/2022, 20:32:59,  user admin logged out through page https://4f50-45-143-108-82.eu.ngrok.io/list
+06/25/2022, 20:33:08,  user dato logged in through page https://4f50-45-143-108-82.eu.ngrok.io/login
+06/25/2022, 20:33:08,  Internal Server Error: /login
+Traceback (most recent call last):
+  File "C:\Django\lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Django\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Django\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'None' not found. 'None' is not a valid view function or pattern name.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Django\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Django\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Projects\mysite\core\views.py", line 222, in loginPage
+    return redirect(request.POST.get('next'))
+  File "C:\Django\lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Django\lib\site-packages\django\shortcuts.py", line 151, in resolve_url
+    if "/" not in to and "." not in to:
+TypeError: argument of type 'NoneType' is not iterable
+06/25/2022, 20:33:17,  user dato logged in through page https://4f50-45-143-108-82.eu.ngrok.io/login?next=/list
+06/25/2022, 20:34:36,  user admin logged in through page https://4f50-45-143-108-82.eu.ngrok.io/admin/login/?next=/admin/
+06/25/2022, 20:35:14,  user admin logged out through page https://4f50-45-143-108-82.eu.ngrok.io/admin/auth/user/
+06/25/2022, 20:35:20,  user staff logged in through page https://4f50-45-143-108-82.eu.ngrok.io/admin/login/?next=/admin/
+06/25/2022, 20:36:42,  C:\Projects\mysite\mysite\settings.py changed, reloading.
+06/25/2022, 20:36:42,  Watching for file changes with StatReloader
+06/25/2022, 20:37:43,  Watching for file changes with StatReloader
+06/25/2022, 20:41:46,  user admin logged in through page https://4f50-45-143-108-82.eu.ngrok.io/admin/login/?next=/admin/
+06/25/2022, 20:44:09,  C:\Projects\mysite\core\views.py changed, reloading.
+06/25/2022, 20:44:10,  Watching for file changes with StatReloader
+06/25/2022, 20:44:23,  C:\Projects\mysite\core\views.py changed, reloading.
+06/25/2022, 20:44:24,  Watching for file changes with StatReloader
+06/25/2022, 20:45:23,  C:\Projects\mysite\core\admin.py changed, reloading.
+06/25/2022, 20:45:24,  Watching for file changes with StatReloader
+06/25/2022, 20:48:09,  C:\Projects\mysite\core\admin.py changed, reloading.
+06/25/2022, 20:48:10,  Watching for file changes with StatReloader
+06/25/2022, 20:48:39,  user admin logged in through page https://4f50-45-143-108-82.eu.ngrok.io/admin/login/?next=/admin/auth/group/
+06/25/2022, 20:49:38,  C:\Projects\mysite\core\admin.py changed, reloading.
+06/25/2022, 20:49:39,  Watching for file changes with StatReloader
+06/25/2022, 20:50:06,  C:\Projects\mysite\core\admin.py changed, reloading.
+06/25/2022, 20:50:06,  Watching for file changes with StatReloader
+06/25/2022, 20:50:17,  C:\Projects\mysite\core\views.py changed, reloading.
+06/25/2022, 20:50:18,  Watching for file changes with StatReloader
+06/25/2022, 20:54:39,  C:\Projects\mysite\core\models.py changed, reloading.
+06/25/2022, 20:54:40,  Watching for file changes with StatReloader
+06/26/2022, 18:45:19,  Watching for file changes with StatReloader
+06/26/2022, 18:45:25,  Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+06/26/2022, 18:45:25,  Bad Request: /
+06/26/2022, 18:45:25,  Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+06/26/2022, 18:45:25,  Bad Request: /
+06/26/2022, 18:45:25,  Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+06/26/2022, 18:45:25,  Bad Request: /favicon.ico
+06/26/2022, 18:45:35,  C:\Projects\mysite\mysite\settings.py changed, reloading.
+06/26/2022, 18:45:51,  Watching for file changes with StatReloader
+06/26/2022, 18:46:19,  user admin logged in through page http://127.0.0.1:8000/login?next=/9876543210
+06/26/2022, 18:46:36,  C:\Projects\mysite\mysite\urls.py changed, reloading.
+06/26/2022, 18:46:36,  Watching for file changes with StatReloader
+06/26/2022, 18:46:52,  C:\Projects\mysite\core\admin.py changed, reloading.
+06/26/2022, 18:46:53,  Watching for file changes with StatReloader
+06/26/2022, 18:48:16,  C:\Projects\mysite\core\admin.py changed, reloading.
+06/26/2022, 18:48:17,  Watching for file changes with StatReloader
+06/26/2022, 18:48:37,  C:\Projects\mysite\core\admin.py changed, reloading.
+06/26/2022, 18:48:38,  Watching for file changes with StatReloader
+06/26/2022, 18:48:55,  C:\Projects\mysite\core\admin.py changed, reloading.
+06/26/2022, 18:48:56,  Watching for file changes with StatReloader
+06/26/2022, 18:51:54,  C:\Projects\mysite\mysite\settings.py changed, reloading.
+06/26/2022, 18:51:54,  Watching for file changes with StatReloader
+06/26/2022, 18:54:01,  Watching for file changes with StatReloader
+06/26/2022, 18:54:20,  Watching for file changes with StatReloader
+06/26/2022, 18:54:53,  Watching for file changes with StatReloader
+06/26/2022, 18:54:56,  user admin logged in through page http://127.0.0.1:8000/admin/login/?next=/admin/
+06/26/2022, 18:55:05,  C:\Projects\mysite\core\admin.py changed, reloading.
+06/26/2022, 18:55:06,  Watching for file changes with StatReloader
+06/26/2022, 18:58:03,  Watching for file changes with StatReloader
+06/26/2022, 19:07:07,  C:\Projects\mysite\core\admin.py changed, reloading.
+06/26/2022, 19:07:08,  Watching for file changes with StatReloader
+06/26/2022, 19:07:26,  C:\Projects\mysite\core\admin.py changed, reloading.
+06/26/2022, 19:07:26,  Watching for file changes with StatReloader
+06/26/2022, 19:07:28,  C:\Projects\mysite\core\admin.py changed, reloading.
+06/26/2022, 19:07:28,  Watching for file changes with StatReloader
+06/26/2022, 19:07:31,  user admin logged in through page http://127.0.0.1:8000/admin/login/?next=/admin/
+06/26/2022, 19:07:40,  C:\Projects\mysite\core\admin.py changed, reloading.
+06/26/2022, 19:07:40,  Watching for file changes with StatReloader
+06/26/2022, 19:07:51,  C:\Projects\mysite\core\admin.py changed, reloading.
+06/26/2022, 19:07:52,  Watching for file changes with StatReloader
+06/26/2022, 19:08:04,  user admin logged out through page http://127.0.0.1:8000/admin/
+06/26/2022, 19:08:08,  user admin logged in through page http://127.0.0.1:8000/admin/login/?next=/admin/
+06/26/2022, 20:12:51,  C:\Projects\mysite\core\admin.py changed, reloading.
+06/26/2022, 20:12:52,  Watching for file changes with StatReloader
+06/26/2022, 20:13:00,  C:\Projects\mysite\mysite\settings.py changed, reloading.
+06/26/2022, 20:13:01,  Watching for file changes with StatReloader
+06/26/2022, 20:13:42,  C:\Projects\mysite\mysite\settings.py changed, reloading.
+06/26/2022, 20:13:42,  Watching for file changes with StatReloader
+06/26/2022, 20:14:25,  C:\Projects\mysite\mysite\settings.py changed, reloading.
+06/26/2022, 20:14:26,  Watching for file changes with StatReloader
+06/26/2022, 20:14:47,  C:\Projects\mysite\mysite\settings.py changed, reloading.
+06/26/2022, 20:14:48,  Watching for file changes with StatReloader
+06/26/2022, 20:15:12,  Watching for file changes with StatReloader
+06/26/2022, 20:15:28,  C:\Projects\mysite\mysite\settings.py changed, reloading.
+06/26/2022, 20:15:28,  Watching for file changes with StatReloader
+06/26/2022, 20:16:21,  C:\Projects\mysite\mysite\urls.py changed, reloading.
+06/26/2022, 20:16:21,  Watching for file changes with StatReloader
+06/26/2022, 20:16:29,  user admin logged in through page https://191c-188-129-145-254.eu.ngrok.io/login?next=/list
