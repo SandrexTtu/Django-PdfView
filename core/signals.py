@@ -8,9 +8,9 @@ import logging
 def log_user_login(sender, request, user, **kwargs):
     logging.info('user {} logged in through page {}'.format(user.username, request.META.get('HTTP_REFERER')))
 
-# @receiver(user_login_failed)
-# def log_user_login_failed(sender, credentials, request, **kwargs):
-#     logging.info('user {} logged in failed through page {}'.format(credentials.get('username'), request.META.get('HTTP_REFERER')))
+@receiver(user_login_failed)
+def log_user_login_failed(sender, credentials, request, **kwargs):
+    logging.info('user {} logged in failed through page {}'.format(credentials.get('username'), request.META.get('HTTP_REFERER')))
 
 
 @receiver(user_logged_out)
