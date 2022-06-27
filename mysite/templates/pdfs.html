@@ -15,24 +15,19 @@
   <table class="table mb-0">
     <thead>
       <tr>
+        <th></th><th></th><th></th><th>
         <th>დასახელება</th>
+        <th></th><th></th><th></th><th>
         <th>წაკითხვა/გადმოწერა</th>
-        <th>წაშლა</th>
       </tr>
     </thead>
     <tbody>
       {% for pdf in pdfs %}
         <tr>
+          <th></th><th></th><th></th><th>
           <td>{{ pdf.დასახელება }}</td>
-          <td>          <a href="{{ pdf.pdf.url }}" class="btn btn-primary btn-sm" target="_blank">
-            PDF წაკითხვა/გადმოწერა
-          </a></td>
-          <td>
-            <form method="post" action="{% url 'delete_pdf' pdf.pk %}">
-              {% csrf_token %}
-              <button type="submit" class="btn btn-danger btn-sm">წაშლა</button>
-            </form>
-          </td>
+          <th></th><th></th><th></th><th>
+          <td><a href="{{ pdf.pdf.url }}" class="btn btn-primary btn-sm" target="_blank"> PDF წაკითხვა/გადმოწერა</a></td>
         </tr>
       {% endfor %}
     </tbody>
