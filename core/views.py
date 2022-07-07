@@ -222,7 +222,7 @@ def loginPage(request):
 				return redirect(request.POST.get('next'))
 
 			else:
-				messages.info(request, 'Username OR password is incorrect')
+				messages.info(request, 'სახელი ან პოროლი არასწორია')
 
 		context = {}
 		return render(request, 'login.html', context)

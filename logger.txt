@@ -16,3 +16,58 @@
 06/27/2022, 21:14:01,  user dato logged in through page https://29c2-188-129-145-254.eu.ngrok.io/login?next=/list
 06/27/2022, 21:14:13,  user dato logged out through page https://29c2-188-129-145-254.eu.ngrok.io/list
 06/27/2022, 21:15:30,  user admin logged in through page https://29c2-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 16:01:18,  user admin logged in through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 16:01:36,  user admin logged out through page https://0b94-188-129-145-254.eu.ngrok.io/admin/
+06/28/2022, 16:01:45,  user admin logged in through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 16:01:48,  user admin logged out through page https://0b94-188-129-145-254.eu.ngrok.io/list
+06/28/2022, 16:01:55,  user admin logged in through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 18:30:54,  user admin logged in through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 18:31:25,  user staff logged in through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 18:37:20,  user admin logged in through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 18:38:55,  user admin logged out through page https://0b94-188-129-145-254.eu.ngrok.io/list
+06/28/2022, 18:40:00,  user admin logged in through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 18:40:40,  user staff logged in through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 18:41:33,  user admin logged out through page https://0b94-188-129-145-254.eu.ngrok.io/list
+06/28/2022, 18:41:37,  user admin logged in through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 18:47:13,  user admin logged out through page https://0b94-188-129-145-254.eu.ngrok.io/list
+06/28/2022, 18:49:38,  user adminhh logged in failed through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 18:49:49,  user adminhh logged in failed through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 18:50:05,  user adminhh logged in failed through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 18:50:09,  user adminhh logged in failed through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 18:50:16,  user adminhh logged in failed through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 18:50:20,  user adminhh logged in failed through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 18:50:25,  user admin logged in through page https://0b94-188-129-145-254.eu.ngrok.io/login
+06/28/2022, 18:50:30,  user admin logged in failed through page https://0b94-188-129-145-254.eu.ngrok.io/login
+06/28/2022, 18:50:35,  user admin logged in failed through page https://0b94-188-129-145-254.eu.ngrok.io/login
+06/28/2022, 18:50:46,  user admin logged in failed through page https://0b94-188-129-145-254.eu.ngrok.io/login
+06/28/2022, 18:50:54,  user admin logged in failed through page https://0b94-188-129-145-254.eu.ngrok.io/login
+06/28/2022, 18:51:05,  user admin logged in failed through page https://0b94-188-129-145-254.eu.ngrok.io/login
+06/28/2022, 18:51:07,  user admin logged in failed through page https://0b94-188-129-145-254.eu.ngrok.io/login
+06/28/2022, 18:51:16,  user admin logged in failed through page https://0b94-188-129-145-254.eu.ngrok.io/login
+06/28/2022, 18:52:15,  user None logged in failed through page https://0b94-188-129-145-254.eu.ngrok.io/login
+06/28/2022, 18:52:39,  user None logged in failed through page https://0b94-188-129-145-254.eu.ngrok.io/login
+06/28/2022, 18:52:41,  user None logged in failed through page https://0b94-188-129-145-254.eu.ngrok.io/login
+06/28/2022, 18:52:45,  user None logged in failed through page https://0b94-188-129-145-254.eu.ngrok.io/login
+06/28/2022, 18:52:54,  user admin logged in through page https://0b94-188-129-145-254.eu.ngrok.io/login
+06/28/2022, 18:52:55,  user admin logged in through page https://0b94-188-129-145-254.eu.ngrok.io/login
+06/28/2022, 18:53:01,  user admin logged in through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 18:53:02,  user admin logged out through page https://0b94-188-129-145-254.eu.ngrok.io/list
+06/28/2022, 18:53:45,  user admin logged in failed through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 18:53:47,  user admin logged in through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 19:03:55,  user admin logged out through page https://0b94-188-129-145-254.eu.ngrok.io/list
+06/28/2022, 19:17:02,  user admin logged in through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 19:19:21,  user admin logged out through page https://0b94-188-129-145-254.eu.ngrok.io/list
+06/28/2022, 19:19:27,  user admin logged in through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 19:19:58,  user admin logged out through page https://0b94-188-129-145-254.eu.ngrok.io/list
+06/28/2022, 19:21:32,  user admin logged in through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 19:21:49,  user admin logged out through page https://0b94-188-129-145-254.eu.ngrok.io/list
+06/28/2022, 19:31:11,  user admin logged in through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 19:38:19,  user admin logged in through page https://0b94-188-129-145-254.eu.ngrok.io/login?next=/list
+06/28/2022, 19:52:54,  user admin logged out through page https://0b94-188-129-145-254.eu.ngrok.io/list
+07/06/2022, 15:02:11,  C:\Projects\Django-PdfView\mysite\urls.py changed, reloading.
+07/06/2022, 15:02:11,  Watching for file changes with StatReloader
+07/06/2022, 15:02:31,  C:\Projects\Django-PdfView\mysite\urls.py changed, reloading.
+07/06/2022, 15:02:32,  Watching for file changes with StatReloader
+07/06/2022, 15:03:37,  Watching for file changes with StatReloader
+07/07/2022, 14:50:21,  Watching for file changes with StatReloader
+07/07/2022, 14:50:28,  user staff logged in through page http://localhost:8000/login?next=/list

@@ -7,9 +7,9 @@ SECRET_KEY = 'django-insecure-fox@*r_%nn48t&lp@rwc(tfdfkzv4y6fx_4^ov@)o8ydip6k=+
 
 
 DEBUG = False
-CSRF_TRUSTED_ORIGINS = ['https://29c2-188-129-145-254.eu.ngrok.io']
-ALLOWED_HOSTS = ["29c2-188-129-145-254.eu.ngrok.io"]
-
+CSRF_TRUSTED_ORIGINS = ['https://0b94-188-129-145-254.eu.ngrok.io']
+ALLOWED_HOSTS = ["0b94-188-129-145-254.eu.ngrok.io"]
+ALLOWED_HOSTS = ['*']
 
 
 

@@ -18,7 +18,7 @@ urlpatterns = [
     path('adminpdfupload/', views.UploadPdfView.as_view(), name='class_upload_pdf'),
     path('pdfs/<int:pk>/', views.delete_pdf, name='delete_pdf'),
     path('admin/', admin.site.urls),
-    re_path(r'^Files/Pdf/ჭაბურღილი1.pdf/$', views.pdf_view, name = "pdf_view"),   
+    re_path(r'^Files/Pdf/ჭაბურღილი1.pdf/$', views.pdf_view, name = "pdf_view"),
     re_path(r'^Files/Pdf/ჭაბურღილი2.pdf/$', views.pdf_view1, name = "pdf_view"),
     re_path(r'^Files/Pdf/ჭაბურღილი3.pdf/$', views.pdf_view2, name = "pdf_view"),   
     re_path(r'^Files/Pdf/ჭაბურღილი4.pdf/$', views.pdf_view3, name = "pdf_view"),
